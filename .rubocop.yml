@@ -1,0 +1,40 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Naming/FileName:
+  Exclude:
+    - lib/jekyll-sticky-toc.rb
+
+Metrics/ClassLength:
+  Max: 125
+  Exclude:
+    - lib/jekyll/sticky_toc/config.rb
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/PerceivedComplexity:
+  Max: 14
+
+Metrics/BlockLength:
+  Max: 35
+
+Metrics/ParameterLists:
+  Max: 8
+
+Layout/LineLength:
+  Max: 120
