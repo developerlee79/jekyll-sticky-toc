@@ -6,9 +6,8 @@ Gem::Specification.new do |spec|
   spec.name = "jekyll-sticky-toc"
   spec.version = Jekyll::StickyToc::VERSION
   spec.authors = ["devl79"]
-  spec.email = [""]
 
-  spec.summary = "Jekyll plugin for an automatic sticky table of contents."
+  spec.summary = "Jekyll plugin that adds a sticky table of contents generated from page headings."
   spec.homepage = "https://github.com/developerlee79/jekyll-sticky-toc"
   spec.required_ruby_version = ">= 2.7.0"
   spec.licenses = ["MIT"]
