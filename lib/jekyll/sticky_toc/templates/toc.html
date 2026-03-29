@@ -1,0 +1,26 @@
+<div class="jtoc-root jtoc-panel-layout-init"
+     data-jtoc-root
+     data-side="{{ side }}"
+     data-fold="{{ fold }}"
+     data-marker="{{ marker }}"
+     data-jtoc-hide-at-bottom="{{ jtoc_hide_at_bottom }}"
+     data-jtoc-hide-at-top="{{ jtoc_hide_at_top }}">
+  <button class="jtoc-mobile-toggle"
+          type="button"
+          aria-label="Toggle table of contents"
+          aria-expanded="false"
+          aria-controls="jtoc-panel">
+    <span class="jtoc-mobile-toggle-bar"></span>
+    <span class="jtoc-mobile-toggle-bar"></span>
+    <span class="jtoc-mobile-toggle-bar"></span>
+  </button>
+  <button type="button"
+          class="jtoc-mobile-backdrop"
+          aria-label="Close table of contents"
+          tabindex="-1"></button>
+  <aside class="jtoc-panel" id="jtoc-panel" aria-label="Table of contents">
+    <nav class="jtoc-nav" id="jtoc-nav">
+      {{ toc_items_html }}
+    </nav>
+  </aside>
+</div>
